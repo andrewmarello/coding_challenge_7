@@ -1,6 +1,9 @@
 console.log(`Coding Challenge 7 - Small Business Website - Andrew Marello`);
 
-function updateHeadline() {
-    let newText = document.getElementById("headlineInput").value;
-    document.getElementById("cta").textContent = newText;
-}
+const input = document.getElementById("headlineInput");
+const button = document.getElementById("updateBtn");
+const cta = document.getElementById("cta");
+
+button.addEventListener("click", function() {
+    cta.textContent = input.value;
+});
