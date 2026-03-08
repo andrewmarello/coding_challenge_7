@@ -46,7 +46,7 @@ section {
 
 /* Service boxes */
 .service {
-    background-color: #f5f5f5;
+    background-color: #f5f5f56f;
     border: 2px solid #006747;
     padding: 15px;
     flex: 1;
